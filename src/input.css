@@ -1,2 +1,5 @@
 @import "tailwindcss";
 
+.grid-child{
+    @apply "background:#deee07; padding:15px; border-radius:8px; text-align:center;
+}
