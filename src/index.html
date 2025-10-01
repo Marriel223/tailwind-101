@@ -1,56 +1,50 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Card</title>
-  <style>
-    
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card with Image</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="card">
-    <div class="card-header">
-       <img src="ure.jpg.jfif" alt="Profile Picture">
-      <h1>MARRIEL BUTIONG DASTAS</h1>
-      <p>BSIT 3B | CALACA CITY, BATANGAS</p>
-      
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+  <div class="bg-white rounded-2xl shadow-xl w-full max-w-sm sm:max-w-md md:max-w-lg overflow-hidden">
+    
+    <!-- Profile Image -->
+    <div class="flex justify-center bg-red-600 p-6 sm:p-8">
+      <img 
+        src="coolaesthetic.png" 
+        alt="Profile Picture" 
+        class="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-4 border-white shadow-md object-cover"
+      />
     </div>
-    <div class="card-body">
-      <p>
-        Matcha is so good! It has that rich, smooth flavor and a nice boost of energy without the jitte.
+
+    <!-- Header Info -->
+    <div class="text-center px-6 pb-4">
+      <h1 class="text-xl sm:text-2xl font-bold text-gray-800">MARRIEL BUTIONG DASTAS</h1>
+      <p class="text-sm sm:text-base italic text-red-500 mt-1">
+        I LOVE MATCHA | CALACA CITY, CAHIL
+      </p>
+    </div>
+
+    <!-- Body Content -->
+    <div class="px-6 pb-6 text-gray-700">
+      <p class="mb-4 indent-6 text-sm sm:text-base">
+        Matcha is so good! It has that rich, smooth flavor and a nice boost of energy without the jitters.
       </p>
 
-      <section class="p-10">
+      <h2 class="text-base sm:text-lg font-semibold underline underline-offset-4 mb-2">
+        Things I like to do:
+      </h2>
+      
+      <ul class="list-disc list-inside space-y-1 text-sm sm:text-base">
+        <li>Drinking matcha iced on a hot day</li>
+        <li>Making matcha lattes with oat or almond milk</li>
+        <li>Baking matcha-flavored treats like cookies, cakes, or muffins</li>
+      </ul>
+    </div>
 
-  <div style="background-color:#ffb6c1; padding:15px; border-radius:10px; text-align:center; box-shadow:0 4px 8px rgba(0,0,0,0.2); margin-bottom:20px;">
-    <h1 style="margin:0; font-size:24px; font-weight:bold; color:#333;">Things I Want To Do</h1>
   </div>
 
-  <article style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:15px;">
-    <div style="grid-child">Learn to play the guitar</div>
-    <div style="grid-child">Run a marathon</div>
-    <div style="grid-child">Start your own business</div>
-    <div style="grid-child">Volunteer regularly at a local charity</div>
-    <div style="grid-child">take a cooking class and master Italian cuisine</div>
-    <div style="grid-child">Build your own website or blog</div>
-    <div style="grid-child">Plant a vegetable or herb garden</div>
-    <div style="grid-child">Host a themed dinner party for friends or family</div>
-    <div style="bgrid-child">Take a photography course and create a portfolio</div>
-    <div style="grid-child">Try a new sport like rock climbing or paddleboarding</div>
-    <div style="grid-child">Learn to surf or kiteboard.</div>
-    <div style="grid-child">Take a creative writing workshop</div>
-   </article>
-  </section>
-</div>
 </body>
-</html>
-</head>
-<body>
 </html>
